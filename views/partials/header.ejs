@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rotaract Manipal</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="/stylesheets/main.css">
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-default .navbar-fixed-top">
+        <div class ="container-fluid">
+            <div class = "navbar-header">
+                <a class = "navbar-brand" href = "/">Rotaract</a>
+            </div>
+            <div class = "collapse navbar-collapse">
+                <ul class = "navbar-nav nav">
+                    <li><a href = "/home">Home</a></li>
+                    <li><a href = "/about">About</a></li>
+                    <li><a href = "/events">Events</a></li>
+                </ul>
+                <ul class = "navbar-nav navbar-right nav">
+                    <% if(!currentUser){ %>
+                        <li><a href = "/login">Login</a></li>
+                        <li><a href = "/register">Sign Up</a></li>
+                    <% } else{ %>
+                        <li><a>Signed In As <%=currentUser.username%></a></li>
+                        <li><a href = "/logout">Logout</a></li>
+                    <% } %>
+                </ul>
+            </div>
+        </div>
+        </nav>
+        
+    
+    

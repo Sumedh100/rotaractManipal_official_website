@@ -1,0 +1,75 @@
+
+.thumbnail img {
+    width: 100%;
+    max-height: 500px;
+}
+
+.thumbnail{
+    padding: 0;
+}
+
+.thumbnail .caption-full{
+    padding: 10px;
+}
+
+.event-thumbnail img{
+    height:250px;
+}
+
+#delete-form{
+    display:inline;
+}
+
+
+.copyright{
+    background-color:#f0f0f0;
+}
+
+.copyright p{
+   margin:15px 0px;
+}
+
+footer{
+	background-color:#222222;
+	padding: 60px 0px;
+	/*position: fixed;*/
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .menu li a{
+	color:#b1aca1;
+	padding:10px;
+	text-decoration:none;
+}
+
+footer .menu li a:hover{
+	color:#7dabdb;
+}
+
+.fa.fa-facebook , 
+.fa.fa-dropbox, 
+.fa.fa-flickr , 
+.fa.fa-github , 
+.fa.fa-linkedin ,
+.fa,fa-tumblr ,
+.fa.fa-google-plus , 
+.fa.fa-tumblr {
+	color:#b1aca1;
+	font-size:20px;
+	padding:10px;
+}
+
+.fa.fa-facebook:hover, 
+.fa.fa-dropbox:hover,
+.fa.fa-flickr:hover,
+.fa.fa-github:hover, 
+.fa.fa-linkedin:hover,
+.fa,fa-tumblr:hover,
+.fa.fa-google-plus:hover, 
+.fa.fa-tumblr:hover {
+	color:#6794c2;
+}
+
+

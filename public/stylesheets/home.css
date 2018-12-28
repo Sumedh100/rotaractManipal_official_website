@@ -1,0 +1,61 @@
+.navbar-toggler{
+    color: black;
+}
+
+.navbar-brand img{
+    height:30px;
+    width: 100%
+}
+
+.carousel-item{
+    height:100%;
+    width: 100%;
+    size: cover;
+}
+
+
+.carousel-inner > .item {
+    position: relative;
+    display: none;
+    -webkit-transition: 0.6s ease-in-out left;
+    -moz-transition: 0.6s ease-in-out left;
+    -o-transition: 0.6s ease-in-out left;
+    transition: 0.6s ease-in-out left;
+}
+
+
+/*_____________________________FOOTER CSS__________________________________________________*/
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+   
+   margin:0 0.7em;
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+ 
+ #social-fb:hover {
+     color: #F6CF00;
+ }
+ 
+ #social-tw:hover {
+     color: #F6CF00;
+ }
+
+ #social-insta:hover {
+     color: #F6CF00;
+ }
